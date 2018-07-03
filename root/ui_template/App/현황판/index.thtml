@@ -2,6 +2,11 @@
 <div class="ui segments" style="width: 100%;">
 
 	<style>
+		.jqstooltip {
+			-webkit-box-sizing: content-box;
+			box-sizing: content-box;
+		}
+
 		p {
 			display: block;
 		}
@@ -13,7 +18,7 @@
 		.l_c { display: block; overflow:hidden; width: 40px; }
 		.l_u { display: block; overflow:hidden; width: 90px !important; }
 		.l_r { display: block; overflow:hidden; width: 40px; }
-		.l_chart { overflow:hidden; width: 170px; }
+		.l_chart { overflow:hidden; width: 190px; }
 
 		.l_c_r { color: #ff0000; display: block; overflow:hidden; width: 40px; }
 		.l_u_r { color: #ff0000; display: block; overflow:hidden; width: 40px !important; }
