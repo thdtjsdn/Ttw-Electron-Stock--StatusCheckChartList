@@ -139,9 +139,8 @@
 		<div class="ui segment" style="font-size: 11px;">
 			<h3 class="ui header">KOSPI & KOSDAQ</h3>
 			<div class="ui horizontal segments" style="padding: 5px;">
-
-				<div class="ui cards" id="list_kospi0" style="margin: 5px; width: 100%; height: 100%">
-					<div class="ui" id="{{code}}" style="margin: 0px; width: 200px;">
+				<div id="list_kospi0" style="margin-right: 10px;">
+					<div id="{{code}}" style="margin: 0px;">
 						<div class="title_divider_r ui horizontal divider">{{name}}</div>
 						<div id="{{code}}-chart" class="l_chart"></div>
 						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
@@ -152,8 +151,32 @@
 						</div>
 					</div>
 				</div>
-				<div class="ui cards" id="list_kospi1" style="margin: 5px; width: 100%; height: 100%">
-					<div class="ui" id="{{code}}" style="margin: 0px; width: 200px;">
+				<div id="list_kospi1" style="margin-right: 10px;">
+					<div id="{{code}}" style="margin: 0px;">
+						<div class="title_divider_r ui horizontal divider">{{name}}</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
+						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+							<p class="l_n">{{name}}</p>
+							<p class="l_c_r">{{cost}}</p>
+							<p class="l_u_r">{{updn}}</p>
+							<p class="l_r_r">{{rate}}</p>
+						</div>
+					</div>
+				</div>
+				<div id="list_kospi2" style="margin-right: 10px;">
+					<div id="{{code}}" style="margin: 0px;">
+						<div class="title_divider_b ui horizontal divider">{{name}}</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
+						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+							<p class="l_n">{{name}}</p>
+							<p class="l_c_b">{{cost}}</p>
+							<p class="l_u_b">{{updn}}</p>
+							<p class="l_r_b">{{rate}}</p>
+						</div>
+					</div>
+				</div>
+				<div id="list_kospi3" style="margin-right: 10px;">
+					<div id="{{code}}" style="margin: 0px;">
 						<div class="title_divider_b ui horizontal divider">{{name}}</div>
 						<div id="{{code}}-chart" class="l_chart"></div>
 						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
@@ -165,8 +188,8 @@
 					</div>
 				</div>
 
-				<div class="ui cards" id="list_kosdaq0" style="margin: 5px; width: 100%; height: 100%">
-					<div class="ui" id="{{code}}" style="margin: 0px; width: 200px;">
+				<div id="list_kosdaq0" style="margin-right: 10px;">
+					<div id="{{code}}" style="margin: 0px;">
 						<div class="title_divider_r ui horizontal divider">{{name}}</div>
 						<div id="{{code}}-chart" class="l_chart"></div>
 						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
@@ -177,9 +200,46 @@
 						</div>
 					</div>
 				</div>
+				<div id="list_kosdaq1" style="margin-right: 10px;">
+					<div id="{{code}}" style="margin: 0px;">
+						<div class="title_divider_r ui horizontal divider">{{name}}</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
+						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+							<p class="l_n">{{name}}</p>
+							<p class="l_c_r">{{cost}}</p>
+							<p class="l_u_r">{{updn}}</p>
+							<p class="l_r_r">{{rate}}</p>
+						</div>
+					</div>
+				</div>
+				<div id="list_kosdaq2" style="margin-right: 10px;">
+					<div id="{{code}}" style="margin: 0px;">
+						<div class="title_divider_b ui horizontal divider">{{name}}</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
+						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+							<p class="l_n">{{name}}</p>
+							<p class="l_c_b">{{cost}}</p>
+							<p class="l_u_b">{{updn}}</p>
+							<p class="l_r_b">{{rate}}</p>
+						</div>
+					</div>
+				</div>
 
-				<div class="ui cards" id="list_kosdaq1" style="margin: 5px; width: 100%; height: 100%">
-					<div class="ui" id="{{code}}" style="margin: 0px; width: 200px;">
+				<div id="list_kosdaq3" style="margin-right: 10px;">
+					<div id="{{code}}" style="margin: 0px;">
+						<div class="title_divider_b ui horizontal divider">{{name}}</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
+						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+							<p class="l_n">{{name}}</p>
+							<p class="l_c_b">{{cost}}</p>
+							<p class="l_u_b">{{updn}}</p>
+							<p class="l_r_b">{{rate}}</p>
+						</div>
+					</div>
+				</div>
+
+				<div id="list_etc" style="margin-right: 10px;">
+					<div id="{{code}}" style="margin: 0px;">
 						<div class="title_divider_b ui horizontal divider">{{name}}</div>
 						<div id="{{code}}-chart" class="l_chart"></div>
 						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
