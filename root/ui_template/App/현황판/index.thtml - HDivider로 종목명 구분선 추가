@@ -18,7 +18,7 @@
 		.l_c { display: block; overflow:hidden; width: 40px; }
 		.l_u { display: block; overflow:hidden; width: 90px !important; }
 		.l_r { display: block; overflow:hidden; width: 40px; }
-		.l_chart { overflow:hidden; width: 190px; margin: 0px; background-color: #000000 }
+		.l_chart { overflow:hidden; width: 190px; margin: 0px; }
 
 		.l_c_r { color: #ff0000; display: block; overflow:hidden; width: 40px; }
 		.l_u_r { color: #ff0000; display: block; overflow:hidden; width: 40px !important; }
@@ -104,112 +104,112 @@
 				<div id="list_kospi0" style="margin-right: 10px;">
 					<div id="{{code}}" style="margin: 0px;">
 						<div class="ui horizontal divider" style="margin: 0px; font-size: 11px;">{{name}}</div>
-						<div id="{{code}}-chart" class="l_chart"></div>
-						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+						<div style="display: flex; height: 25px;">
 							<p class="l_n">{{name}}</p>
 							<p class="l_c_r">{{cost}}</p>
 							<p class="l_u_r">{{updn}}</p>
 							<p class="l_r_r">{{rate}}</p>
 						</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
 					</div>
 				</div>
 				<div id="list_kospi1" style="margin-right: 10px;">
 					<div id="{{code}}" style="margin: 0px;">
 						<div class="ui horizontal divider" style="margin: 0px; font-size: 11px;">{{name}}</div>
-						<div id="{{code}}-chart" class="l_chart"></div>
-						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+						<div style="display: flex; height: 25px;">
 							<p class="l_n">{{name}}</p>
 							<p class="l_c_r">{{cost}}</p>
 							<p class="l_u_r">{{updn}}</p>
 							<p class="l_r_r">{{rate}}</p>
 						</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
 					</div>
 				</div>
 				<div id="list_kospi2" style="margin-right: 10px;">
 					<div id="{{code}}" style="margin: 0px;">
 						<div class="ui horizontal divider" style="margin: 0px; font-size: 11px;">{{name}}</div>
-						<div id="{{code}}-chart" class="l_chart"></div>
-						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+						<div style="display: flex; height: 25px;">
 							<p class="l_n">{{name}}</p>
 							<p class="l_c_b">{{cost}}</p>
 							<p class="l_u_b">{{updn}}</p>
 							<p class="l_r_b">{{rate}}</p>
 						</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
 					</div>
 				</div>
 				<div id="list_kospi3" style="margin-right: 10px;">
 					<div id="{{code}}" style="margin: 0px;">
 						<div class="ui horizontal divider" style="margin: 0px; font-size: 11px;">{{name}}</div>
-						<div id="{{code}}-chart" class="l_chart"></div>
-						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+						<div style="display: flex; height: 25px;">
 							<p class="l_n">{{name}}</p>
 							<p class="l_c_b">{{cost}}</p>
 							<p class="l_u_b">{{updn}}</p>
 							<p class="l_r_b">{{rate}}</p>
 						</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
 					</div>
 				</div>
 
 				<div id="list_kosdaq0" style="margin-right: 10px;">
 					<div id="{{code}}" style="margin: 0px;">
 						<div class="ui horizontal divider" style="margin: 0px; font-size: 11px;">{{name}}</div>
-						<div id="{{code}}-chart" class="l_chart"></div>
-						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+						<div style="display: flex; height: 25px;">
 							<p class="l_n">{{name}}</p>
 							<p class="l_c_r">{{cost}}</p>
 							<p class="l_u_r">{{updn}}</p>
 							<p class="l_r_r">{{rate}}</p>
 						</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
 					</div>
 				</div>
 				<div id="list_kosdaq1" style="margin-right: 10px;">
 					<div id="{{code}}" style="margin: 0px;">
 						<div class="ui horizontal divider" style="margin: 0px; font-size: 11px;">{{name}}</div>
-						<div id="{{code}}-chart" class="l_chart"></div>
-						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+						<div style="display: flex; height: 25px;">
 							<p class="l_n">{{name}}</p>
 							<p class="l_c_r">{{cost}}</p>
 							<p class="l_u_r">{{updn}}</p>
 							<p class="l_r_r">{{rate}}</p>
 						</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
 					</div>
 				</div>
 				<div id="list_kosdaq2" style="margin-right: 10px;">
 					<div id="{{code}}" style="margin: 0px;">
 						<div class="ui horizontal divider" style="margin: 0px; font-size: 11px;">{{name}}</div>
-						<div id="{{code}}-chart" class="l_chart"></div>
-						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+						<div style="display: flex; height: 25px;">
 							<p class="l_n">{{name}}</p>
 							<p class="l_c_b">{{cost}}</p>
 							<p class="l_u_b">{{updn}}</p>
 							<p class="l_r_b">{{rate}}</p>
 						</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
 					</div>
 				</div>
 
 				<div id="list_kosdaq3" style="margin-right: 10px;">
 					<div id="{{code}}" style="margin: 0px;">
 						<div class="ui horizontal divider" style="margin: 0px; font-size: 11px;">{{name}}</div>
-						<div id="{{code}}-chart" class="l_chart"></div>
-						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+						<div style="display: flex; height: 25px;">
 							<p class="l_n">{{name}}</p>
 							<p class="l_c_b">{{cost}}</p>
 							<p class="l_u_b">{{updn}}</p>
 							<p class="l_r_b">{{rate}}</p>
 						</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
 					</div>
 				</div>
 
 				<div id="list_etc" style="margin-right: 10px;">
 					<div id="{{code}}" style="margin: 0px;">
 						<div class="ui horizontal divider" style="margin: 0px; font-size: 11px;">{{name}}</div>
-						<div id="{{code}}-chart" class="l_chart"></div>
-						<div style="display: flex; height: 25px; margin: 5px 0px 0px 0px;">
+						<div style="display: flex; height: 25px;">
 							<p class="l_n">{{name}}</p>
 							<p class="l_c_b">{{cost}}</p>
 							<p class="l_u_b">{{updn}}</p>
 							<p class="l_r_b">{{rate}}</p>
 						</div>
+						<div id="{{code}}-chart" class="l_chart"></div>
 					</div>
 				</div>
 
